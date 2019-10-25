@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GuavaProgramming:war">
+    <output-path>$PROJECT_DIR$/GuavaProgramming/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>GuavaProgramming</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="GuavaProgramming.war">
+      <element id="artifact" artifact-name="GuavaProgramming:war exploded" />
+    </root>
+  </artifact>
+</component>

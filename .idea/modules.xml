@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaTest.iml" filepath="$PROJECT_DIR$/.idea/IdeaTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java8_learn/Java8_learn.iml" filepath="$PROJECT_DIR$/Java8_learn/Java8_learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guava_programming/guava_programming.iml" filepath="$PROJECT_DIR$/guava_programming/guava_programming.iml" />
+    </modules>
+  </component>
+</project>
