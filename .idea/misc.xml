@@ -11,6 +11,7 @@
       <list>
         <option value="$PROJECT_DIR$/guava_programming/pom.xml" />
         <option value="$PROJECT_DIR$/Java8_learn/pom.xml" />
+        <option value="$PROJECT_DIR$/Java8_practice/pom.xml" />
       </list>
     </option>
   </component>

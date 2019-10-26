@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Java8_learn" />
         <module name="guava_programming" />
+        <module name="Java8_practice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="guava_programming" target="1.8" />
       <module name="GuavaProgramming" target="1.8" />
       <module name="Java8_learn" target="1.8" />
+      <module name="Java8_practice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
