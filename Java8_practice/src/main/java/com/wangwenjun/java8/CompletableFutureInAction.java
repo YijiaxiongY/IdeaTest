@@ -25,6 +25,9 @@ public class CompletableFutureInAction {
         }catch (InterruptedException e){
             e.printStackTrace();
         }
-        return r.nextDouble();
+
+        double v = r.nextDouble();
+        System.out.println(v);
+        return v;
     }
 }
