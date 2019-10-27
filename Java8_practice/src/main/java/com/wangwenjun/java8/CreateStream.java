@@ -38,5 +38,22 @@ public class CreateStream {
         }
     }
 
+    private static Stream<Integer> createStreamFromIterator(){
+        Stream<Integer> stream = Stream.iterate(0,n->n*2);
+        return stream;
+    }
+
+    private static Stream<Double> createStreamFromGenerator(){
+        Stream<Double> stream = Stream.generate(Math::random).limit(10);
+        return stream;
+    }
+
+    static  class Obj {
+        private int id;
+        private String name;
+
+    }
+
+
 
 }

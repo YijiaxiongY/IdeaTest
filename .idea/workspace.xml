@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0e560a-755b-48fe-a378-299ce00e8c71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Java8_practice/Java8_practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8_practice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CreateStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FilterApple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/LambdaExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/MeaningOfThis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/MethodReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/SimpleStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CompletableAction2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CompletableFutureInAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CompletableFutureInAction3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FutureAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FutureInAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FutureInAction3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/StreamFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/StreamMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8_learn/src/test/java/com/java8/learn/DateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8_learn/src/test/java/com/java8/learn/DateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CreateStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CreateStream.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/GuavaProgramming/target/" />
@@ -34,10 +31,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8_learn/src/test/java/com/java8/learn/lambdaLearn.java">
+        <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CreateStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+            <state relative-caret-position="286">
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,10 +43,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8_learn/src/test/java/com/java8/learn/TestStreamApI2.java">
+        <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FutureInAction3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="2" selection-end-line="49" selection-end-column="6" />
+            <state relative-caret-position="88">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FutureInAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-330">
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,19 +64,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/MeaningOfThis.java">
+        <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CompletableFutureInAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/MethodReference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="148">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/SimpleStream.java">
+        <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CompletableAction2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="110">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="16" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,60 +88,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CreateStream.java">
+        <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CompletableFutureInAction3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="-22">
+              <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#1241#1242#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/LambdaExpression.java">
+        <entry file="jar://F:/Java/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="144">
+              <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FutureAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-834">
+              <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1422#1423#0" expanded="true" />
+                <element signature="e#1484#1485#0" expanded="true" />
+                <element signature="e#1560#1561#0" expanded="true" />
+                <element signature="e#1610#1611#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8_learn/src/test/java/com/java8/learn/TestLambda3.java">
+        <entry file="jar://F:/Java/src.zip!/java/util/concurrent/CompletableFuture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3152">
-              <caret line="163" column="13" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="169">
+              <caret line="1812" column="60" selection-start-line="1812" selection-start-column="60" selection-end-line="1812" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8_learn/src/test/java/com/java8/learn/MyPredicate.java">
+        <entry file="jar://F:/Java/src.zip!/java/util/function/Supplier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8_learn/src/test/java/com/java8/learn/TestMethodRef.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="178">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -208,6 +209,15 @@
         <option value="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/MethodReference.java" />
         <option value="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/SimpleStream.java" />
         <option value="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CreateStream.java" />
+        <option value="$PROJECT_DIR$/Java8_learn/src/test/java/com/java8/learn/StreamFilter.java" />
+        <option value="$PROJECT_DIR$/Java8_learn/src/test/java/com/java8/learn/StreamMap.java" />
+        <option value="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/StreamMap.java" />
+        <option value="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FutureInAction.java" />
+        <option value="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FutureInAction3.java" />
+        <option value="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FutureAction.java" />
+        <option value="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CompletableFutureInAction.java" />
+        <option value="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CompletableAction2.java" />
+        <option value="$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CompletableFutureInAction3.java" />
       </list>
     </option>
   </component>
@@ -260,6 +270,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,57 +362,6 @@
               <item name="IdeaTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="IdeaTest" type="462c0819:PsiDirectoryNode" />
               <item name="Java8_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Java8_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Java8_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Java8_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Java8_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Java8_learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdeaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdeaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Java8_learn" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -472,7 +432,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -502,9 +461,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleStream">
-    <configuration name="MeaningOfThis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangwenjun.java8.MeaningOfThis" />
+  <component name="RunManager" selected="Application.CompletableFutureInAction3">
+    <configuration name="CompletableAction2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangwenjun.java8.CompletableAction2" />
       <module name="Java8_practice" />
       <extension name="coverage">
         <pattern>
@@ -516,8 +475,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangwenjun.java8.MethodReference" />
+    <configuration name="CompletableFutureInAction3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangwenjun.java8.CompletableFutureInAction3" />
       <module name="Java8_practice" />
       <extension name="coverage">
         <pattern>
@@ -529,8 +488,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wangwenjun.java8.SimpleStream" />
+    <configuration name="FutureAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangwenjun.java8.FutureAction" />
       <module name="Java8_practice" />
       <extension name="coverage">
         <pattern>
@@ -542,45 +501,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTime.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8_learn" />
+    <configuration name="FutureInAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangwenjun.java8.FutureInAction" />
+      <module name="Java8_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java8.learn.*" />
+          <option name="PATTERN" value="com.wangwenjun.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.java8.learn" />
-      <option name="MAIN_CLASS_NAME" value="com.java8.learn.DateTime" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTime.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java8_learn" />
+    <configuration name="StreamMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wangwenjun.java8.StreamMap" />
+      <module name="Java8_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java8.learn.*" />
+          <option name="PATTERN" value="com.wangwenjun.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.java8.learn" />
-      <option name="MAIN_CLASS_NAME" value="com.java8.learn.DateTime" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleStream" />
-        <item itemvalue="Application.MethodReference" />
-        <item itemvalue="Application.MeaningOfThis" />
-        <item itemvalue="JUnit.DateTime.test6" />
-        <item itemvalue="JUnit.DateTime.test5" />
+        <item itemvalue="Application.CompletableFutureInAction3" />
+        <item itemvalue="Application.CompletableAction2" />
+        <item itemvalue="Application.FutureAction" />
+        <item itemvalue="Application.FutureInAction" />
+        <item itemvalue="Application.StreamMap" />
       </list>
     </recent_temporary>
   </component>
@@ -605,7 +558,8 @@
       <workItem from="1571796214092" duration="1099000" />
       <workItem from="1571877493730" duration="14465000" />
       <workItem from="1571971061155" duration="16939000" />
-      <workItem from="1572047704290" duration="5804000" />
+      <workItem from="1572047704290" duration="14682000" />
+      <workItem from="1572136931811" duration="9433000" />
     </task>
     <servers />
   </component>
@@ -642,7 +596,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79933000" />
+    <option name="totallyTimeSpent" value="98244000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,8 +609,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26331812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.02891933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -666,18 +621,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923897" weight="0.269103" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49923897" visible="true" weight="0.08305648" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32890365" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32890365" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4385382" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5714286" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50076103" side_tool="true" weight="0.5598007" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32890365" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -746,81 +701,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IdeaTest.iml" />
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_1_jre.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava_programming/src/main/java/com/wangwenjun/guava/package.json" />
-    <entry file="uml://MAVEN/guava:guava_programming:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>guava:guava_programming:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">guava:guava_programming:1.0-SNAPSHOT</node>
-            <node x="" y="">com.google.guava:guava:jar:28.1-jre</node>
-            <node x="" y="">com.google.guava:guava:jar:28.1-jre/com.google.guava:failureaccess:jar:1.0.1</node>
-            <node x="" y="">com.google.guava:guava:jar:28.1-jre/com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava</node>
-            <node x="" y="">com.google.guava:guava:jar:28.1-jre/com.google.code.findbugs:jsr305:jar:3.0.2</node>
-            <node x="" y="">com.google.guava:guava:jar:28.1-jre/org.checkerframework:checker-qual:jar:2.8.1</node>
-            <node x="" y="">com.google.guava:guava:jar:28.1-jre/com.google.errorprone:error_prone_annotations:jar:2.3.2</node>
-            <node x="" y="">com.google.guava:guava:jar:28.1-jre/com.google.j2objc:j2objc-annotations:jar:1.3</node>
-            <node x="" y="">com.google.guava:guava:jar:28.1-jre/org.codehaus.mojo:animal-sniffer-annotations:jar:1.18</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="160.0" y="98.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava_programming/src/main/java/com/wangwenjun/guava/utilities/JoinerTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar!/com/google/common/base/Joiner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1178">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.1-jre/guava-28.1-jre-sources.jar!/com/google/common/base/Joiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1112">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8_learning/src/com/java8/practice/LambdaLearn.java" />
-    <entry file="file://$PROJECT_DIR$/Java8_learning/src/com/java8/practice/package-info.java" />
-    <entry file="jar://F:/Java/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-637">
-          <caret line="139" column="55" selection-start-line="139" selection-start-column="55" selection-end-line="139" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava_programming/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="21" selection-start-line="17" selection-start-column="6" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guava_programming/src/main/java/com/wangwenjun/guava/utilities/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java8_learn/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -832,13 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/src.zip!/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -970,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/Java/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/Java/src.zip!/java/util/function/BiFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
@@ -996,16 +862,6 @@
             <element signature="e#268#269#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#375#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FilterApple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="52" column="8" selection-start-line="52" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1125,14 +981,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CreateStream.java">
+    <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FilterApple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="182">
+          <caret line="52" column="8" selection-start-line="52" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/src.zip!/java/util/function/UnaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/StreamFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/StreamMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15730">
+          <caret line="771" column="17" selection-start-line="771" selection-start-column="17" selection-end-line="771" selection-end-column="18" />
+          <folding>
+            <element signature="e#32010#32011#0" expanded="true" />
+            <element signature="e#32095#32096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3014">
+          <caret line="183" column="18" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2112">
+          <caret line="106" column="45" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
+          <folding>
+            <element signature="e#2998#2999#0" expanded="true" />
+            <element signature="e#3042#3043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CreateStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FutureInAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FutureInAction3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/FutureAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-834">
+          <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CompletableFutureInAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="1812" column="60" selection-start-line="1812" selection-start-column="60" selection-end-line="1812" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CompletableAction2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8_practice/src/main/java/com/wangwenjun/java8/CompletableFutureInAction3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
           </folding>
         </state>
       </provider>
